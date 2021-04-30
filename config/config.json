@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "customizable-quick-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customizableQuickLinks/CustomizableQuickLinksWebPart.js",
+          "manifest": "./src/webparts/customizableQuickLinks/CustomizableQuickLinksWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomizableQuickLinksWebPartStrings": "lib/webparts/customizableQuickLinks/loc/{locale}.js"
+  }
+}
